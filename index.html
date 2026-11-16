@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal Da Manutenção - Suporte TECCA">
+  <title>Manutenção | Suporte digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="Topicos">
+    <a class="logo" href="#inicio">Tecca<span>Integração</span></a>
+
+    <button
+      class="botao-menu"
+      type="button"
+      aria-label="Abrir menu"
+      aria-expanded="false"
+    >
+      Menu
+    </button>
+
+    <nav class="menu" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Seção Início -->
+    <section class="inicio" id="inicio">
+      <div class="inicio-conteudo">
+        <h1>Suporte Digital</h1>
+        <p>CFTV, Controle de Acesso e SDAI.</p>
+
+        <div class="acoes">
+          <a class="botao principal" href="#contato">E-mail: Suporte@tecca.com.br</a>
+          <a class="botao principal" href="#contato">whatsapp: (11)9 0000-0000</a>
+          <a class="botao secundario" href="#"></a>
+        </div>
+      </div>
+
+      <div class="painel" aria-label="Resumo dos resultados">
+        <div class="painel-topo">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="painel-conteudo">
+          <div class="grafico">
+            <span style="height: 35%"></span>
+            <span style="height: 55%"></span>
+            <span style="height: 45%"></span>
+            <span style="height: 75%"></span>
+            <span style="height: 100%"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section class="secao" id="contatos">
+      <p class="destaque"></p>
+      <h2>Suporte Para o Técnico</h2>
+      <p>Oferecemos assistência completa e especializada para sistemas de segurança e automação.</p>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="secao" id="sobre">
+      <p class="destaque"></p>
+      <h2>Somos especialistas</h2>
+      <p>A Tecca Integração atua fornecendo suporte digital de alta precisão para equipes técnicas.</p>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="secao contato" id="contato">
+      <div>
+        <p class="destaque"></p>
+        <h2>Fale Conosco</h2>
+        <p>Preencha o formulário e retornaremos em breve.</p>
+      </div>
+
+      <form id="formulario">
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" required>
+
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button class="botao principal" type="submit">Enviar mensagem</button>
+        <p class="retorno" id="retorno" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#inicio">Tecca<span>Integração</span></a>
+    <p>&copy; 2026 Tecca Integração.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
